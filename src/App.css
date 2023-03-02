@@ -1,0 +1,775 @@
+.container{
+    width: 87%;
+    margin: 0 auto;
+}
+body{
+    background: #FFFFFF;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body a{
+    font-family: 'Sofia Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #2C3847;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    text-decoration: none;
+    padding: 0 5%;
+}
+body a:hover{
+    color: seagreen;
+    transition: 0.5s all;
+}
+
+
+
+
+
+/*HEADER*/
+/*HEADER*/
+/*HEADER*/
+/*HEADER*/
+/*HEADER*/
+/*HEADER*/
+/*HEADER*/
+/*HEADER*/
+/*HEADER*/
+/*HEADER*/
+/*HEADER*/
+/*HEADER*/
+/*HEADER*/
+/*HEADER*/
+#Header{
+    position: fixed;
+    width: 100%;
+    background: whitesmoke;
+    z-index: 8;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5%;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.header-search{
+    display: flex;
+    align-items: center;
+}
+.logo-h1{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    color: #333333;
+    padding-right: 40%;
+}
+.search-btn{
+    font-family: 'Sofia Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+    border-radius: 50px;
+    border: none;
+    padding: 3% 7%;
+    cursor: pointer;
+}
+.search-btn:hover{
+    box-shadow: 1px 1px 5px 5px #494949;;
+    transition: 0.5s ease-in-out;
+}
+.header-search h1{
+    font-size: 25px;
+    opacity: 0.6;
+    cursor: pointer;
+    padding: 0 10%;
+}
+
+
+
+
+
+
+
+
+
+/*HERO */
+/*HERO */
+/*HERO */
+/*HERO */
+/*HERO */
+/*HERO */
+/*HERO */
+/*HERO */
+/*HERO */
+/*HERO */
+/*HERO */
+/*HERO */
+/*HERO */
+/*HERO */
+/*HERO */
+/*HERO */
+/*HERO */
+/*HERO */
+.hero-text{
+    text-align: left;
+}
+.Hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding-top: 5%;
+}
+.hero-text h1{
+    font-family: 'Sharp Sans No1',sans-serif;
+    font-style: normal;
+    font-weight: 770;
+    font-size: 63px;
+    line-height: 95px;
+    color: #181D19;
+}
+.hero-text span{
+    color: #5FB848;
+}
+.hero-text p{
+    font-family: 'Sharp Sans No1',sans-serif;
+    font-style: normal;
+    font-weight: 10;
+    font-size: 24px;
+    line-height: 34px;
+    color: #181D19;
+    padding: 8% 0;
+    opacity: 0.7;
+}
+.hero-btn{
+    font-family: 'Sofia Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+    border-radius: 50px;
+    border: none;
+    padding: 1% 5%;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    box-shadow: 1px 1px 5px 5px #494949;;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+/*CHOOSE*/
+/*CHOOSE*/
+/*CHOOSE*/
+/*CHOOSE*/
+/*CHOOSE*/
+/*CHOOSE*/
+/*CHOOSE*/
+/*CHOOSE*/
+/*CHOOSE*/
+/*CHOOSE*/
+/*CHOOSE*/
+/*CHOOSE*/
+/*CHOOSE*/
+/*CHOOSE*/
+/*CHOOSE*/
+/*CHOOSE*/
+/*CHOOSE*/
+/*CHOOSE*/
+/*CHOOSE*/
+/*CHOOSE*/
+.choose-logo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Choose h1{
+    font-family: 'Sharp Sans No1',sans-serif;
+    font-style: normal;
+    font-weight: 770;
+    font-size: 54px;
+    line-height: 68px;
+    color: #151414;
+}
+.Choose p{
+    font-family: 'Sharp Sans No1',sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3B433E;
+    opacity: 0.7;
+}
+.choose-img h2{
+    font-family: 'Sharp Sans No1',sans-serif;
+    font-style: normal;
+    font-weight: 770;
+    font-size: 28px;
+    line-height: 35px;
+    color: #181D19;
+    padding: 8% 0;
+}
+.choose-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 3% 0;
+}
+.choose-number{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.Choose{
+    padding: 5% 0;
+}
+
+
+
+
+
+
+
+
+/*ABOUT*/
+/*ABOUT*/
+/*ABOUT*/
+/*ABOUT*/
+/*ABOUT*/
+/*ABOUT*/
+/*ABOUT*/
+/*ABOUT*/
+/*ABOUT*/
+/*ABOUT*/
+/*ABOUT*/
+.About{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5% 0;
+}
+.about-logo{
+    text-align: left;
+}
+.about-logo h1{
+    font-family: 'Sharp Sans No1',sans-serif;
+    font-style: normal;
+    font-weight: 770;
+    font-size: 54px;
+    line-height: 68px;
+    color: #151414;
+}
+.about-logo p{
+    font-family: 'Sharp Sans No1',sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 20px;
+    line-height: 34px;
+    color: #181D19;
+    opacity: 0.7;
+    padding: 7% 0;
+}
+.about-btn{
+    font-family: 'Sofia Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+    border-radius: 50px;
+    border: none;
+    padding: 1% 2%;
+    cursor: pointer;
+}
+.about-btn:hover{
+    box-shadow: 1px 1px 5px 5px #494949;;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+/*FRESH*/
+/*FRESH*/
+/*FRESH*/
+/*FRESH*/
+/*FRESH*/
+/*FRESH*/
+/*FRESH*/
+/*FRESH*/
+/*FRESH*/
+/*FRESH*/
+/*FRESH*/
+/*FRESH*/
+/*FRESH*/
+/*FRESH*/
+/*FRESH*/
+/*FRESH*/
+/*FRESH*/
+/*FRESH*/
+/*FRESH*/
+.Fresh{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5% 0;
+}
+.fresh-logo{
+    text-align: right;
+}
+.fresh-logo h1{
+    font-family: 'Sharp Sans No1',sans-serif;
+    font-style: normal;
+    font-weight: 770;
+    font-size: 54px;
+    line-height: 68px;
+    color: #151414;
+}
+.fresh-logo p{
+    font-family: 'Sharp Sans No1',sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 20px;
+    line-height: 34px;
+    color: #181D19;
+    opacity: 0.7;
+    padding: 7% 0;
+}
+.fresh-btn{
+    font-family: 'Sofia Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+    border-radius: 50px;
+    border: none;
+    padding: 1% 2%;
+    cursor: pointer;
+}
+.fresh-btn:hover{
+    box-shadow: 1px 1px 5px 5px #494949;;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+/*BEST*/
+/*BEST*/
+/*BEST*/
+/*BEST*/
+/*BEST*/
+/*BEST*/
+/*BEST*/
+/*BEST*/
+/*BEST*/
+/*BEST*/
+/*BEST*/
+/*BEST*/
+/*BEST*/
+/*BEST*/
+/*BEST*/
+/*BEST*/
+.Best{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5% 0;
+}
+.best-logo{
+    text-align: left;
+}
+.best-logo h1{
+    font-family: 'Sharp Sans No1',sans-serif;
+    font-style: normal;
+    font-weight: 770;
+    font-size: 54px;
+    line-height: 68px;
+    color: #151414;
+}
+.best-logo p{
+    font-family: 'Sharp Sans No1',sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 20px;
+    line-height: 34px;
+    color: #181D19;
+    opacity: 0.7;
+    padding: 7% 0;
+}
+.best-logo h6{
+    display: flex;
+    align-items: center;
+    font-family: 'Sharp Sans No1',sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 15px;
+    line-height: 50px;
+    color: #181D19;
+}
+.best-logo span{
+    color: #6EBF4B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*SPECIAL*/
+/*SPECIAL*/
+/*SPECIAL*/
+/*SPECIAL*/
+/*SPECIAL*/
+/*SPECIAL*/
+/*SPECIAL*/
+/*SPECIAL*/
+/*SPECIAL*/
+/*SPECIAL*/
+/*SPECIAL*/
+/*SPECIAL*/
+/*SPECIAL*/
+/*SPECIAL*/
+/*SPECIAL*/
+/*SPECIAL*/
+/*SPECIAL*/
+.Special{
+    padding: 5% 0;
+}
+.special-logo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Special p{
+    font-family: 'Sharp Sans No1',sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3B433E;
+    opacity: 0.7;
+}
+.Special h3{
+    font-family: 'Sharp Sans No1',sans-serif;
+    font-style: normal;
+    font-weight: 770;
+    font-size: 28px;
+    line-height: 35px;
+    color: #181D19;
+    padding: 7% 0;
+}
+.Special h1{
+    font-family: 'Sharp Sans No1',sans-serif;
+    font-style: normal;
+    font-weight: 770;
+    font-size: 54px;
+    line-height: 68px;
+    color: #151414;
+    padding: 5vh;
+}
+.special-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 7% 0;
+}
+.special-item{
+    background: whitesmoke;
+    padding: 5%;
+    width: 20%;
+    border-radius: 7vh;
+}
+.btn-special{
+    text-align: center;
+}
+.special-btn{
+    font-family: 'Sofia Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+    border-radius: 50px;
+    border: none;
+    padding: 0.5% 2%;
+    cursor: pointer;
+}
+.special-btn:hover{
+    box-shadow: 1px 1px 5px 5px #494949;;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*HAPPY*/
+/*HAPPY*/
+/*HAPPY*/
+/*HAPPY*/
+/*HAPPY*/
+/*HAPPY*/
+/*HAPPY*/
+/*HAPPY*/
+/*HAPPY*/
+/*HAPPY*/
+/*HAPPY*/
+/*HAPPY*/
+/*HAPPY*/
+/*HAPPY*/
+/*HAPPY*/
+/*HAPPY*/
+/*HAPPY*/
+.Happy h1{
+    font-family: 'Sharp Sans No1',sans-serif;
+    font-style: normal;
+    font-weight: 770;
+    font-size: 54px;
+    line-height: 68px;
+    color: #151414;
+    padding: 7vh 0;
+    text-align: center;
+}
+.Happy p{
+    font-family: 'Sharp Sans No1',sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3B433E;
+    opacity: 0.7;
+    padding: 8% 0;
+}
+.happy-group{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+.item-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.happy-item{
+    background: whitesmoke;
+    padding: 3%;
+    border-radius: 3vh;
+    margin: 1vh;
+}
+.Happy span{
+    color: #5FB848;
+    font-size: 7vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CTA*/
+/*CTA*/
+/*CTA*/
+/*CTA*/
+/*CTA*/
+/*CTA*/
+/*CTA*/
+/*CTA*/
+/*CTA*/
+/*CTA*/
+/*CTA*/
+/*CTA*/
+/*CTA*/
+/*CTA*/
+/*CTA*/
+/*CTA*/
+/*CTA*/
+/*CTA*/
+/*CTA*/
+/*CTA*/
+/*CTA*/
+/*CTA*/
+/*CTA*/
+.cta-logo{
+    text-align: center;
+}
+.cta-logo h1{
+    font-family: 'Sharp Sans No1',sans-serif;
+    font-style: normal;
+    font-weight: 770;
+    font-size: 35px;
+    line-height: 68px;
+    color: #151414;
+}
+.cta-logo p{
+    font-family: 'Sharp Sans No1',sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3B433E;
+    opacity: 0.7;
+}
+.cta-btn input{
+    background: whitesmoke;
+    border: none;
+    padding: 1% 5%;
+    outline: none;
+    border-radius: 10px;
+    margin: 0 3vh;
+}
+.cta-btn button{
+    font-family: 'Sofia Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+    border-radius: 50px;
+    border: none;
+    padding: 0.5% 2%;
+    cursor: pointer;
+}
+.cta-btn button:hover{
+    box-shadow: 1px 1px 5px 5px #494949;;
+    transition: 0.5s ease-in-out;
+}
+.cta-btn{
+    text-align: center;
+    padding: 4% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+.Footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 8% 0;
+}
+.Footer h1 {
+    font-family: 'Sharp Sans No1',sans-serif;
+    font-style: normal;
+    font-weight: 770;
+    font-size: 20px;
+    line-height: 68px;
+    color: #151414;
+}
+.Footer p{
+    font-family: 'Sharp Sans No1',sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 15px;
+    line-height: 30px;
+    color: #3B433E;
+    opacity: 0.7;
+}
+center{
+    background: #5FB848;
+    padding: 1% 0;
+}
